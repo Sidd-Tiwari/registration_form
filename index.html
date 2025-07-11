@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+        background-color: #c5d8e9ad;
+        
+    }
+
+    form{
+        background-color: rgb(52, 138, 138);
+        border: 2px solid #389ccf;
+        padding: 20px;
+        width: 50%;
+        border-radius: 10px;
+        color: white;
+         }
+
+    h1{
+        font-size: 45px;
+        color: rgb(30, 81, 122);
+    }
+
+    .lbl{
+        font-size: 30px;
+        float: left;
+    }
+
+    .inp{
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+        float: right;
+        border: 3px solid rgb(44, 141, 179);
+    }
+
+    button{
+        color:rgb(30, 81, 122);
+        background-color: skyblue;
+        font-size: 30px;
+        border-radius: 12px;
+        border-radius: 2 solid blue;
+        padding: 10px;
+        margin-top: 20px;
+        border: 2px solid #123a4e;
+    }
+</style>
+<body>
+    
+    <center>
+        <h1>Registration Form <hr></h1>
+        <form>
+            <label for="name" class="lbl">First Name : </label>
+            <input type="text" class="inp"><br><br><br>
+
+            <label for="lname" class="lbl">Last Name : </label>
+            <input type="text" class="inp"><br><br><br>
+
+            <label for="dob" class="lbl">DOB : </label>
+            <input type="date" class="inp"><br><br><br>
+
+            <label class="lbl">Gender:</label>
+                <div class="inp"><label>Male:</label>
+                <input type="radio" name="gender">
+                <label>Female:</label>
+                <input type="radio" name="gender">
+                <label>Others:</label>
+                <input type="radio" name="gender">
+                </div><br><br><br>
+
+            <label for="email" class="lbl">Email : </label>
+            <input type="email" class="inp"><br><br><br>
+
+            <label for="num" class="lbl">Contact : </label>
+            <input type="number" class="inp"><br><br><br>
+
+            <label for="address" class="lbl">Address : </label>
+            <input type="text" class="inp"><br><br><br>
+
+            <button type="submit">Submit</button>
+    </form></center>
+    
+</body>
+</html>
